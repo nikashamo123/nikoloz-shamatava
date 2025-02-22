@@ -1,0 +1,8 @@
+.card{
+  width: 300px;
+  height: 500px;
+  box-shadow: 0 0 15px 3px black;
+}
+.card img{
+  width: 100%;
+}
