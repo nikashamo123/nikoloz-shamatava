@@ -1,5 +1,6 @@
 
 import './App.css'
+import Navbar from './Navbar'
 
 function App() {
   let cardinfo = {
@@ -8,8 +9,10 @@ function App() {
     lastName: "jolei"
   }
 
+  
   return (
     <>
+    <Navbar/>
     <div className="card">
       <img src={cardinfo.image} alt="" />
       <h1>{cardinfo.firstName}</h1>
